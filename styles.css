@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('background.webp');
+    background-size: cover;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: #000000; 
+}
+
+.stopwatch {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 100px;
+    border-radius: 10px;
+}
+
+#time {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 20px 40px;
+    margin: 5px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#start {
+    background-color: rgb(65, 199, 65);
+}
+
+#stop {
+    background-color: rgb(190, 62, 62);
+}
+
+#reset {
+    background-color: lightseagreen;
+}
+
+.buttons button:hover {
+    color: #f0f0f0; 
+}
